@@ -1,0 +1,19 @@
+n=input()
+uc=0
+lc=0
+d=0
+a=0
+for i in x:
+    if(i.isupper()):
+        uc+=1
+    elif(i.isdigit()):
+        d+=1
+    elif(i.islower()):
+        lc+=1
+    elif(i.isalpha()):
+        print(i)
+print('lower case',lc)
+print('upper case',uc)
+print('digites ',d)
+print('alphabets',a)
+
